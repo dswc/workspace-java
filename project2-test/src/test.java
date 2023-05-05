@@ -1,0 +1,32 @@
+
+public class test {
+    public static void main(String[] args) {
+//        Baby tom = new Baby(50);
+//        Baby smallTom = tom;
+//        tom.sleep();
+//        System.out.println(smallTom.height);
+//        System.out.println(smallTom.weight);
+        
+        test2 t2 = new test2();
+        t2.run();
+    }
+}
+
+class Baby {
+    int height;
+    int weight;
+    String sex;
+
+    public Baby(int height) {
+        this(height, 3500);
+    }
+
+    public Baby(int h, int w) {
+        height = h;
+        weight = w;
+    }
+
+    public void sleep() {
+        System.out.println("sleep......");
+    }
+}

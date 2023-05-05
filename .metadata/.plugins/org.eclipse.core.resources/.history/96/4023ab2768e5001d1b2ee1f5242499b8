@@ -1,0 +1,16 @@
+
+public class test {
+    public static void main(String[] args) {
+        Baby tom = new Baby();
+        tom.height = 50;
+
+        System.out.println(tom.height);
+    }
+}
+
+class Baby {
+    int height;
+    int weight;
+    String sex;
+}
+

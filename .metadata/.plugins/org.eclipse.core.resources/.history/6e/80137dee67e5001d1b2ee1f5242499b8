@@ -1,0 +1,13 @@
+
+public class test {
+    public static void main(String[] args) {
+        
+    }
+}
+
+class Baby {
+    int height;
+    int weight;
+    String sex;
+}
+
