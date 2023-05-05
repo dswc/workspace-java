@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class MyArrayList {
+    public void run() {
+        ArrayList<ArrayList<Integer>> arrList = new ArrayList<ArrayList<Integer>>();
+        
+        arrList.add(new Car(3));
+        arrList.add(new Car(4));
+        arrList.add(new Car(5));
+        
+        for (Integer c: arrList)
+            System.out.println(c);
+    }
+}

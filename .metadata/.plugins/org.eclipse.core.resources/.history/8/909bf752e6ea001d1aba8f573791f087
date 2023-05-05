@@ -6,7 +6,6 @@ public class test2 {
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = new Car(i);
         }
-        
         Car[] arr2 = new Car[arr1.length];
 
         System.arraycopy(arr1, 0, arr2, 0, arr1.length);

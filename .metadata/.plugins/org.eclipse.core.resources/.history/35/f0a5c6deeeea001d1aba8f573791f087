@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class MyArrayList {
+    public void run() {
+        ArrayList<Integer> arrList = new ArrayList<Integer>();
+
+        System.out.println("length = " + arrList.size());
+
+        arrList.add(100);
+        arrList.add(200);
+        arrList.add(300);
+        for (int i = 0; i < arrList.size(); i++)
+            System.out.println("arrList = " + arrList.get(i));
+
+        System.out.println("================");
+        arrList.remove(0);
+        for (int i = 0; i < arrList.size(); i++)
+            System.out.println("arrList = " + arrList.get(i));
+
+    }
+}
